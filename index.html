@@ -9,14 +9,19 @@
     <title>PIXL</title>
 </head>
 
-<body class="p-2 bg-pixl-dark text-pixl-light">
-    <h1>Hello, Vite.</h1>
-
-    <div class="flex gap-2 mt-2">
-        <div class="size-8 bg-pixl"></div>
-        <div class="size-8 bg-pixl-light"></div>
-        <div class="size-8 bg-pixl-dark"></div>
+<body class="relative bg-pixl-dark text-pixl-light h-dvh w-full overflow-clip">
+    <div class="absolute inset-0 overflow-clip">
+        <img src="/images/login.png" alt="A plant in a corner of a room at afternoon"
+            class="absolute left-[15%] h-full w-full object-cover mask-l-from-80% opacity-30">
     </div>
+
+    <footer class="fixed bottom-0 w-full pb-3">
+        <div class="flex flex-col gap-1.5 items-center text-pixl p-4">
+            <p>All Rights Reserved. Pixl Media For Everyone*</p>
+            <p class="opacity-50 text-xs">*except for badgers, they're $@&@*holes.</p>
+        </div>
+        <div class="absolute bottom-0 h-4 w-full bg-[url(/images/white-noise.gif)]"></div>
+    </footer>
 </body>
 
 </html>
